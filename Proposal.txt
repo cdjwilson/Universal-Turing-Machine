@@ -1,0 +1,12 @@
+1. Name of universal TM = Jake
+2. Who is working on the project = Cameron Wilson (Just me, alone)
+3. For my debugging I will impliment a function that calls newConfigs n times and returns that final config and all other configs before
+4. I do expect to change the encoding. I am thinking of changing the output of inputU so that I can better determine where the input string for the TM starts.
+I am going to change the way the input string is encoded so that they are numbered and I can store what position the readhead is on for the TM
+I will store the state of the TM after the encoded string input of the TM. I will then store the position of the readhead after this. 
+I am going to check the start state and write that to the tape.
+I will then check what the first input of the string is. I will then search the encoding of the machine to match the start state, then try to match the input.
+If they match I will then write the new state where I wrote the start state and write over the input of the string with what the encoding has. I will then move my readhead position depending on what the direction says
+I will then check to see if I the state I have stored is the same as the final state of the encoded machine. If I am not in a final state I will repeat these steps until I am in a final state.
+So my tape will be [encoded TM, encoded string, state of TM, readhead position of TM]
+5. I prefer to present on Thursday, Dec. 9th

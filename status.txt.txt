@@ -1,0 +1,5 @@
+I wrote a getnewConfigntimes funcation as my debugger that takes an integer, tm, and a input and returs a list of the configuration after n calls to newConfigs.
+I also changed the incoding of inputU so that it it puts an @ to symbolize the start of my input string and I my try to move that @ to any comma before an input
+to show that this is where the readhead is looking.
+I also changed the encoding to add the encoded start and end symbol to the start and end of the input
+I started the transitions for my universal tm, the code I have is just trying to write the current state of the tm.
